@@ -7,6 +7,10 @@
   "license": "MIT",
   "homepage": "https://github.com/rdig/purser-node10#readme",
   "dependencies": {
+    "@colony/purser-ledger": "^1.2.2",
+    "@colony/purser-metamask": "^2.1.0",
+    "@colony/purser-software": "^1.2.4",
+    "@colony/purser-trezor": "^1.2.2",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-scripts": "2.1.3"
