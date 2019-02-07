@@ -1,0 +1,20 @@
+{
+  "name": "purser-node10",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Purser testing on Node v10",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdig/purser-node10.git"
+  },
+  "author": "Raul Glogovetan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdig/purser-node10/issues"
+  },
+  "homepage": "https://github.com/rdig/purser-node10#readme",
+  "engines": {
+    "node": ">=10.15"
+  }
+}
