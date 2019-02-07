@@ -1,7 +1,7 @@
 import purserSoftware from '@colony/purser-software';
 // import purserLedger from '@colony/purser-ledger';
 import purserMetamask from '@colony/purser-metamask';
-// import purserTrezor from '@colony/purser-trezor';
+import purserTrezor from '@colony/purser-trezor';
 
 const log = (...messages) => console.log('[PURSER]', ...messages);
 
@@ -17,9 +17,16 @@ const purserMetamaskWalletTest = async () => {
   log('metamask wallet object instace', wallet);
 };
 
+const purserTrezorWalletTest = async () => {
+  const wallet = await purserTrezor.open();
+  log(`trezor wallet address: ${wallet.address}`);
+  log('trezor wallet object instace', wallet);
+};
+
 const init = () => {
   purserSoftwareWalletTest();
-  purserMetamaskWalletTest()
+  // purserMetamaskWalletTest()
+  purserTrezorWalletTest();
 };
 
 export default init;
