@@ -25,8 +25,8 @@ const purserTrezorWalletTest = async () => {
 
 const init = () => {
   purserSoftwareWalletTest();
-  // purserMetamaskWalletTest()
-  purserTrezorWalletTest();
+  purserMetamaskWalletTest()
+  // purserTrezorWalletTest();
 };
 
 export default init;
